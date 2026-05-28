@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  background: #08111f;
+  color: #f8fafc;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.titleBlock {
+  position: absolute;
+  left: 72px;
+  top: 58px;
+  width: 760px;
+}
+
+.kicker {
+  color: #67e8f9;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+h1 {
+  margin: 12px 0 14px;
+  font-size: 66px;
+  line-height: 1.05;
+  font-weight: 850;
+}
+
+p {
+  margin: 0;
+  width: 680px;
+  color: #cbd5e1;
+  font-size: 28px;
+  line-height: 1.42;
+}
+
+.panel {
+  position: absolute;
+  right: 72px;
+  top: 70px;
+  width: 430px;
+  border: 1px solid rgba(148, 163, 184, 0.34);
+  border-radius: 8px;
+  background: rgba(8, 17, 31, 0.76);
+  padding: 26px;
+}
+
+.panelHeader,
+.metric,
+.forceRow,
+.formula {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panelHeader {
+  margin-bottom: 20px;
+  color: #dbeafe;
+  font-size: 25px;
+}
+
+.panelHeader strong {
+  color: #f8fafc;
+  font-size: 30px;
+}
+
+.metric {
+  min-height: 58px;
+  border-top: 1px solid rgba(148, 163, 184, 0.22);
+  font-size: 24px;
+  color: #cbd5e1;
+}
+
+.metric b {
+  color: #f8fafc;
+  font-size: 27px;
+}
+
+.metricEmphasis b {
+  color: #67e8f9;
+  font-size: 36px;
+}
+
+.progressTrack {
+  height: 12px;
+  margin-top: 22px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.24);
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #22d3ee, #f97316);
+}
+
+.forcePanel {
+  position: absolute;
+  left: 72px;
+  bottom: 92px;
+  width: 520px;
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  padding: 20px 24px;
+}
+
+.forceRow {
+  min-height: 52px;
+  font-size: 25px;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.forceRow:first-child {
+  border-top: 0;
+}
+
+.forceRow span {
+  font-weight: 760;
+}
+
+.forceRow b {
+  color: #f8fafc;
+  font-size: 28px;
+}
+
+.tension span {
+  color: #fde047;
+}
+
+.gravity span {
+  color: #fb7185;
+}
+
+.centripetal span {
+  color: #34d399;
+}
+
+.formula {
+  position: absolute;
+  right: 72px;
+  bottom: 92px;
+  width: 780px;
+  gap: 18px;
+}
+
+.formula span {
+  flex: 1;
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(125, 211, 252, 0.28);
+  border-radius: 8px;
+  background: rgba(8, 17, 31, 0.7);
+  color: #dbeafe;
+  font-size: 25px;
+  font-weight: 780;
+}
