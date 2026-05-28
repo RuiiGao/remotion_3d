@@ -1,0 +1,25 @@
+{
+  "name": "remotion-3d-conical-pendulum",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "build": "remotion render src/index.ts ConicalPendulum out/conical-pendulum.mp4 --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "still": "remotion still src/index.ts ConicalPendulum out/conical-pendulum-frame.png --frame=180 --scale=0.35 --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\""
+  },
+  "dependencies": {
+    "@react-three/fiber": "latest",
+    "@remotion/cli": "latest",
+    "@remotion/three": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/three": "^0.184.1",
+    "typescript": "latest"
+  }
+}
